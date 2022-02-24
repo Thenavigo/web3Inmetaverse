@@ -1,6 +1,6 @@
 # WE COVER
 
-*Web3 In Metaverse Introductory guide*
+## Web3 In Metaverse Introductory guide
 
 
 > What is web3?
