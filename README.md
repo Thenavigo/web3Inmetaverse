@@ -3,7 +3,7 @@
 *Web3 In Metaverse Introductory guide*
 
 
-## What is web3?
+> What is web3?
 
 Before we define the web3 stack, let’s attempt to define web3. There are countless definitions depending on who you ask, but to me I find this definition spot on:
 
@@ -14,12 +14,13 @@ With this decentralized tech stack, we can begin building out decentralized appl
 
 Some of the characteristics enabled by web3 are:
 
-– Decentralized web infrastructure
-– Ownership (of data, content, and platform)
-– Native digital payments
-– Self-sovereign identity
-– Distributed, trust-less, & robust infrastructure
-– Open, public, composable back ends
+- Decentralized web infrastructure
+- Ownership (of data, content, and platform)
+- Native digital payments
+- Self-sovereign identity
+- Distributed, trust-less, & robust infrastructure
+- Open, public, composable back ends
+
 
 While some of the applications built on decentralized tech stacks will replace their predecessors, a new paradigm of apps have also been made possible by the new primitives enabled by blockchains.
 
