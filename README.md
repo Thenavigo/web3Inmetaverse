@@ -47,6 +47,8 @@ Does this mean that everything is going to be replaced by web3? Not necessarily.
 
 
 
+
+
 1. [Section 1: Web1 and Web2]() 👇
 
 	 
@@ -104,6 +106,8 @@ The social Web contains a number of online tools and platforms where people shar
 
 
 
+
+
 2. [Section 2: The web3 stack]() 👇
 
 	 
@@ -128,3 +132,80 @@ Let’s now start diving into the web3 stack, broken into this set of categories
 ## Blockchain
 
 
+There are countless blockchains that you can choose to build on. There is no single one that is "the best", instead you should consider the various tradeoffs between them.
+
+
+One thing that is often important to me when learning something new is the idea of applying the [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle) to what I’m learning. i.e., what is the most efficient way to get the most out of that amount of time and effort. Following this idea I can gain the most traction and momentum while learning something new in the shortest amount of time.
+
+
+
+In the Blockchain world, learning Solidity and the [EVM](https://ethereum.org/en/developers/docs/evm/) (or Ethereum Virtual Machine) might be the best bet when getting started as a blockchain developer. Using this skillset (and tech stack), you can build not only for Ethereum, but other Ethereum Layer 2s, sidechains, and even other blockchains like Avalanche, Fantom, and Celo.
+
+
+That being said, Rust is beginning to become more and more popular in the blockchain world, with Solana, NEAR, Polkadot, and others having first class Rust support. You probably can’t really go wrong learning either, but for the beginner I’d say that Solidity will still be the better choice if someone asked me today.
+
+
+
+Beyond that advice, here is an incomplete sample of blockchains that have a solid combination of technology, utility, community, momentum, and future viability:
+
+
+
+- [Ethereum](https://ethereum.org/en/) - original smart contract platform
+
+
+- ZK rollups: [ZKSync](https://zksync.io/), [Starknet](https://starkware.co/starknet/), [Hermez](https://hermez.io/) - High throughput Ethereum layer 2s, but not natively EVM compatible
+
+
+- Optimistic rollups: [Arbitrum](https://offchainlabs.com/) & [Optimism](https://www.optimism.io/) - Ethereum layer 2s, EVM compatible (learn more about the differences between optimistic and ZK rollups [here](https://vitalik.ca/general/2021/01/05/rollup.html))
+
+
+- [Polygon](https://polygon.technology/) - Ethereum sidechain
+
+
+- [Solana](https://solana.com/)  - high throughput, inexpensive transactions, fast block times, but harder to learn than EVM (Rust)
+
+
+- [NEAR](https://near.org/) - Layer 1 blockchain, can write smart contracts in Rust or Assemblyscript
+
+
+- [Cosmos](https://v1.cosmos.network/) - an ecosystem of interoperate blockchains
+
+
+- [Polkadot](https://polkadot.network/) - blockchain-based computing platform that enables blockchains built on top of it to execute transactions between themselves, creating an interconnected internet of blockchains
+
+
+- [Fantom](https://fantom.foundation/) - EVM compatible layer 1
+
+
+- [Avalanche](https://www.avax.network/) - EVM compatible Layer 1
+
+
+- [Celo](https://celo.org/) - EVM compatible layer 1, designed to make it easy for anyone with a smartphone to send, receive, and store crypto
+
+
+- [Tezos](https://tezos.com/) - Non EVM compatible layer 1, a lot of NFT projects are using it
+
+
+
+When interacting with a network, you'll need to use an RPC endpoint.
+
+There are a few ways you can do this:
+
+- Access a public RPC endpoint
+- Running your own nodes
+- Accessing a node provider as a service
+- Accessing a decentralized node provider as a service
+
+
+Public RPC endpoints are often provided by the network, but for most production dapps you'll want to leverage your own endpoints as they are not stable or recommended for production.
+
+There are a handful of RPC service providers out there, here are a few:
+
+
+- [Infura](https://infura.io/)
+- [Figment Datahub](https://datahub-beta.figment.io/) 
+- [Ankr](https://www.ankr.com/) 
+- [Coinbase Cloud](https://www.coinbase.com/cloud) 
+- [Cloudflare](https://developers.cloudflare.com/distributed-web/ethereum-gateway/interacting-with-the-eth-gateway/) 
+- [Alchemy](https://www.alchemy.com/) 
+- [Genesis Go (Solana)](https://genesysgo.com/) 
