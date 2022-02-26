@@ -209,3 +209,12 @@ There are a handful of RPC service providers out there, here are a few:
 - [Cloudflare](https://developers.cloudflare.com/distributed-web/ethereum-gateway/interacting-with-the-eth-gateway/) 
 - [Alchemy](https://www.alchemy.com/) 
 - [Genesis Go (Solana)](https://genesysgo.com/) 
+
+
+
+There is also a web3 / decentralized solution, [Pocket Network](https://www.pokt.network/) that seems to be gaining traction.
+
+Any of these options are probably a good bet for interacting directly with your network.
+
+
+## Blockchain development environments
