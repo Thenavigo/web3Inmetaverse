@@ -263,7 +263,7 @@ In addition to file storage and on-chain storage, you may also need to store dat
 A few options are:
 
 
-- [Ceramic Network](https://ceramic.network/) - a decentralized, open source platform for creating, hosting, and sharing data. Ceramic also has a nice identity protocol that I’ll talk about later. Probably my favorite off-chain storage solution at the moment. [Here’s](https://twitter.com/ceramicnetwork/status/1364631929262235648) a pretty nice demo.
+- [Ceramic Network](https://ceramic.network/) - a decentralized, open source platform for creating, hosting, and sharing data. Ceramic also has a nice identity protocol that I’ll talk about later. Probably favorite off-chain storage solution at the moment. [Here’s](https://twitter.com/ceramicnetwork/status/1364631929262235648) a pretty nice demo.
 
 - [Textile ThreadDB](https://docs.textile.io/threads/) - a multi-party database built on IPFS and Libp2p. If I understand correctly, it may be going through a big API change at the moment. I’ve tried it and it shows some promise, but the docs and DX need some improvement.
 
@@ -271,7 +271,7 @@ A few options are:
 
 
 
-In terms of maturity, my take is that the ecosystem of off-chain storage solutions is not yet where it needs to be to build out some of the more advanced use cases some developers might want. Some challenges here are real-time data, conflict detection and conflict resolution, write authorization, documentation, and general developer experience.
+In terms of maturity, the ecosystem of off-chain storage solutions is not yet where it needs to be to build out some of the more advanced use cases some developers might want. Some challenges here are real-time data, conflict detection and conflict resolution, write authorization, documentation, and general developer experience.
 
 
 Integrating offchain data solutions with blockchain protocols is one of the last big hurdles we need to cross before we have a fully decentralized protocol stack capable of supporting any kind of application.
@@ -289,7 +289,7 @@ Traditionally, that’s the work that databases do in the centralized tech stack
 
 - [The Graph](https://thegraph.com/en/) is a protocol for iThe Graphndexing and querying blockchain data that makes this process much easier and offers a decentralized solution for doing so. Anyone can build and publish open GraphQL APIs, called subgraphs, making blockchain data easy to query.
 
-To learn more about The Graph, check out the docs [here](https://thegraph.com/docs/en/) or my tutorial [here](https://dev.to/edge-and-node/building-graphql-apis-on-ethereum-4poa).
+To learn more about The Graph, check out the docs [here](https://thegraph.com/docs/en/) or tutorial [here](https://dev.to/edge-and-node/building-graphql-apis-on-ethereum-4poa).
 
 
 ## Identity
@@ -313,7 +313,7 @@ For instance, if they have an Ethereum wallet available, you’ll be able to acc
 If you want to handle authentication yourself, you can allow the user to sign a transaction and then decode it somewhere to authenticate the user, but this usually requires a server. [Here](https://mirror.xyz/sha.eth/i6ry1Mxez53z91ef375sMe2rO1NvK2ipACyzKA4SR9g) is an example of how that might look using an EVM wallet, and [Here](https://docs.phantom.app/integrating/sending-a-transaction#signing-and-sending-a-transaction) is an example of how to do this with Solana / Phantom.
 
 
-What about managing user profiles in a decentralized way? [Ceramic Network](https://developers.ceramic.network/learn/welcome/) offers the most robust protocol and suite of tools for managing decentralized identity. They recently released [a blog post](https://blog.ceramic.network/the-next-architecture-for-building-web3-data-applications/) outlining some of their most recent updates and giving some guidelines around how all of the tools work together. I’d start there and then explore [their docs](https://developers.ceramic.network/learn/welcome/) to gain an understanding of how to start building, and consider checking out my example project [here](https://github.com/dabit3/decentralized-identity-example) that uses Ceramic [self.id](https://developers.ceramic.network/reference/self-id/).
+What about managing user profiles in a decentralized way? [Ceramic Network](https://developers.ceramic.network/learn/welcome/) offers the most robust protocol and suite of tools for managing decentralized identity. They recently released [a blog post](https://blog.ceramic.network/the-next-architecture-for-building-web3-data-applications/) outlining some of their most recent updates and giving some guidelines around how all of the tools work together. I’d start there and then explore [their docs](https://developers.ceramic.network/learn/welcome/) to gain an understanding of how to start building, and consider checking out example project [here](https://github.com/dabit3/decentralized-identity-example) that uses Ceramic [self.id](https://developers.ceramic.network/reference/self-id/).
 
 
 
@@ -341,7 +341,7 @@ For client-side SDKs in Ethereum there’s [web3.js](https://web3js.readthedocs.
 
 
 
-In Solana, you’ll probably be working with [@solana/web3.js](https://docs.solana.com/developing/clients/javascript-api) and / or [Anchor](https://project-serum.github.io/anchor/getting-started/introduction.html) . I’ve found Anchor client libraries to be my go-to for building Solana programs since I’m using Anchor framework anyway, and I’ve found it much easier to understand then @solana/web3.js.
+In Solana, you’ll probably be working with [@solana/web3.js](https://docs.solana.com/developing/clients/javascript-api) and / or [Anchor](https://project-serum.github.io/anchor/getting-started/introduction.html) . I’ve found Anchor client libraries to be go-to for building Solana programs since I’m using Anchor framework anyway, and I’ve found it much easier to understand then @solana/web3.js.
 
 
 
