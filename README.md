@@ -289,7 +289,7 @@ Traditionally, that’s the work that databases do in the centralized tech stack
 
 - [The Graph](https://thegraph.com/en/) is a protocol for iThe Graphndexing and querying blockchain data that makes this process much easier and offers a decentralized solution for doing so. Anyone can build and publish open GraphQL APIs, called subgraphs, making blockchain data easy to query.
 
-To learn more about The Graph, check out the docs [here](https://thegraph.com/docs/en/) or my tutorial here[here](https://dev.to/edge-and-node/building-graphql-apis-on-ethereum-4poa).
+To learn more about The Graph, check out the docs [here](https://thegraph.com/docs/en/) or my tutorial [here](https://dev.to/edge-and-node/building-graphql-apis-on-ethereum-4poa).
 
 
 ## Identity
